@@ -30,3 +30,4 @@ client = MongoClient("mongodb://"+config['MONGO_URL'],
 db = client[config['MONGO_DB_NAME']]
 db.command("createUser", config['MONGO_USER'],
            pwd=config['MONGO_PASS'], roles=["dbOwner"])
+print("User and role created. Exiting now.")
