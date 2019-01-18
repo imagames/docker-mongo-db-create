@@ -11,6 +11,6 @@ This image requires the following environment variables, all of which are mandat
 | `MONGO_URL`        | `foo.bar:27027` | URL of the mongoDB instance, including port          |
 | `MONGO_ADMIN_USER` | `admin`         | Admin username (with user and db creation privileges) |
 | `MONGO_ADMIN_PASS` | `foo`           | Admin password                                        |
-| `MONGO_DB_NAME`    | `admin`         | Name of the database to create                        |
+| `MONGO_DB_NAME`    | `newdb`         | Name of the database to create                        |
 | `MONGO_USER`       | `user`          | Name of the new user to create                        |
 | `MONGO_PASS`       | `pass`          | Password for the new user                             |
