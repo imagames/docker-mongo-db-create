@@ -1,5 +1,5 @@
 FROM python:3-alpine
-LABEL maintainer="alvaro.brv@gmail.com"
+LABEL maintainer="alvaro.brey@imagames.com"
 
 COPY requirements.txt /requirements.txt
 COPY run.py /run.py
